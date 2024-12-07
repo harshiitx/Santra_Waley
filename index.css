@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    background-color: rgba(255, 166, 0, 0.45);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Header{
+    background-color: rgba(255, 166, 0, 0.8);
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+    border: red solid 2px;
+}
+#Logo,#cart{
+    height:100px;
+    width: 100px;
+    background-blend-mode: lighten;
+}
+#title{
+font-size: 50px;
+color: wheat;
+}
+#Nav_items{
+    display: flex;
+    width: 500px;
+    gap:50px;
+    list-style-type:none;
+}
+
+
+#shops{
+    margin: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+#card{
+    width: 350px;
+    padding: 25px;
+    font-size: 20px;
+    background-color: rgba(255, 166, 0, 0.65);
+}
+#card:hover{
+    border: solid red 1px;
+    box-shadow: tomato 2px 2px;
+}
+#fruit_img{
+    height: 200px;
+    width: 100%;
+}
